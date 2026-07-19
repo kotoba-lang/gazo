@@ -1,0 +1,28 @@
+{
+  "@context": "https://etzhayyim.com/ns/kotodama/v1",
+  "@id": "did:web:gazo.etzhayyim.com",
+  "name": "gazo",
+  "nanoid": "g4z0img1",
+  "runtimeType": "worker",
+  "uiType": "appview",
+  "performerType": "service",
+  "profile": {
+    "displayName": "Gazo",
+    "description": "Browser-local Stable Diffusion image generation via ONNX Runtime WebGPU. Sequential CLIP-UNet-VAE pipeline.",
+    "capabilities": ["image-generation", "webgpu", "diffusion"],
+    "isBot": true,
+    "agentType": "autonomous"
+  },
+  "space": {
+    "name": "Gazo",
+    "joinRule": "public"
+  },
+  "triggers": {
+    "subscribeRepos": {
+      "collections": [
+        "app.bsky.feed.post",
+        "com.etzhayyim.apps.gazo.generationResult"
+      ]
+    }
+  }
+}

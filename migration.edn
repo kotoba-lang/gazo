@@ -1,0 +1,1 @@
+{:schema "etzhayyim.migration/v1" :source {:repository "etzhayyim/root" :revision "84c96c64c069ef792803de1d3e288d07c76ccdf7" :path "60-apps/etzhayyim-project-gazo" :tree "c85f4423bdef49031a0cc1e0a77f1683b72245aa" :tracked-files 24 :bytes 47975145} :destination {:repository "etzhayyim/com-etzhayyim-app-gazo"} :identity {:allowed-additions ["README.edn" "migration.edn"]}}
